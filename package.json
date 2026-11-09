@@ -1,0 +1,48 @@
+{
+  "name": "uniplug",
+  "version": "1.0.0",
+  "description": "Universal, dependency-free JavaScript plugin system: manifest plugins, lifecycle, events, middleware hooks, services, permissions, hot reload and a scaffolding CLI.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./kernel": "./src/core/kernel.js",
+    "./plugin": "./src/core/plugin.js",
+    "./events": "./src/core/events.js",
+    "./hooks": "./src/core/hooks.js",
+    "./services": "./src/core/services.js",
+    "./logger": "./src/core/logger.js",
+    "./errors": "./src/core/errors.js"
+  },
+  "bin": {
+    "uniplug": "bin/uniplug.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "templates",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo-app.js",
+    "lint": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "plugin",
+    "plugin-system",
+    "framework",
+    "extension",
+    "modular",
+    "hooks",
+    "event-bus",
+    "hot-reload"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "__ID__",
+  "name": "__NAME__",
+  "version": "__VERSION__",
+  "description": "A minimal uniplug plugin.",
+  "author": "your-name",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [],
+  "config": {
+    "enabledMessage": "plugin is running"
+  },
+  "permissions": []
+}

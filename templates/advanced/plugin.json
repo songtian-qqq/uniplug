@@ -1,0 +1,17 @@
+{
+  "id": "__ID__",
+  "name": "__NAME__",
+  "version": "__VERSION__",
+  "description": "A full-featured uniplug plugin (services, hooks, storage, timers, permissions).",
+  "author": "your-name",
+  "main": "index.js",
+  "dependencies": {},
+  "optionalDependencies": {},
+  "loadAfter": [],
+  "config": {
+    "intervalMs": 10000,
+    "verbose": false
+  },
+  "permissions": ["storage"],
+  "keywords": []
+}

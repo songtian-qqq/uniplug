@@ -1,0 +1,15 @@
+{
+  "id": "greeter",
+  "name": "Greeter Service",
+  "version": "1.2.0",
+  "description": "Provides a reusable greeting service and consumes the hello-world plugin's command.",
+  "author": "uniplug",
+  "main": "index.js",
+  "dependencies": {
+    "hello-world": "^1.0.0"
+  },
+  "loadAfter": ["hello-world"],
+  "config": {
+    "punctuation": "!"
+  }
+}

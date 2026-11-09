@@ -1,0 +1,9 @@
+node_modules/
+.uniplug/
+*.log
+.DS_Store
+dist/
+coverage/
+.env
+.env.*
+!.env.example

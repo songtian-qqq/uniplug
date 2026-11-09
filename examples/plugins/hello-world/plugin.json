@@ -1,0 +1,15 @@
+{
+  "id": "hello-world",
+  "name": "Hello World",
+  "version": "1.0.0",
+  "description": "The smallest possible plugin: lifecycle logging, one event listener and one command.",
+  "author": "uniplug",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": ["example", "hello"],
+  "config": {
+    "greeting": "Hello",
+    "loud": false
+  },
+  "permissions": []
+}

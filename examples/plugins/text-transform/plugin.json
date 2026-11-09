@@ -1,0 +1,9 @@
+{
+  "id": "text-transform",
+  "name": "Text Transform Pipeline",
+  "version": "2.0.1",
+  "description": "Two middleware interceptors on the demo:transform hook: uppercase, then append a step log.",
+  "author": "uniplug",
+  "main": "index.js",
+  "keywords": ["hooks", "middleware", "pipeline"]
+}

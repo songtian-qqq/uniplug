@@ -1,0 +1,12 @@
+{
+  "id": "lifecycle-audit",
+  "name": "Lifecycle Audit",
+  "version": "1.0.0",
+  "description": "Watches kernel/plugin lifecycle events, counts message traffic and persists counters.",
+  "author": "uniplug",
+  "main": "index.js",
+  "permissions": ["storage"],
+  "config": {
+    "verbose": true
+  }
+}

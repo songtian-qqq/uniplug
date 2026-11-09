@@ -1,0 +1,11 @@
+{
+  "id": "__ID__",
+  "name": "__NAME__",
+  "version": "__VERSION__",
+  "description": "A sandboxed uniplug plugin (CommonJS, whitelisted globals).",
+  "author": "your-name",
+  "main": "index.js",
+  "sandbox": true,
+  "permissions": ["storage"],
+  "config": {}
+}
